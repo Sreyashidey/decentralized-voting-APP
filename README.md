@@ -60,3 +60,17 @@ After you clone the repository, follow these steps to install the necessary pack
   npx hardhat compile
 npx hardhat run --network volta scripts/deploy.js
 npm start
+
+## Technologies used-
+This project leverages a combination of tools and technologies to build a decentralized voting system. Below are the key technologies used:
+
+- **Solidity**: The programming language used for writing the smart contract that handles the voting logic on the blockchain.
+- **Hardhat**: An Ethereum development environment used to compile, test, and deploy the Solidity smart contract.
+- **ReactJS**: The JavaScript library used to build the front-end user interface for interacting with the blockchain.
+- **MetaMask**: A browser extension wallet that allows users to securely interact with the Ethereum blockchain.
+- **Ethereum/Volta Network**: The blockchain network used to deploy the smart contract. The Volta test network is utilized for testing purposes.
+- **Node.js**: The runtime environment used to execute JavaScript on the server-side for both the smart contract and front-end interactions.
+- **npm**: A package manager used to manage project dependencies and scripts.
+
+These technologies together allow the development of a secure, transparent, and decentralized voting system that ensures data integrity and real-time updates.
+
